@@ -1,0 +1,75 @@
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables / Secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# AI / ML Model Files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.safetensors
+*.gguf
+*.bin
+
+# Model Cache
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Dataset Files
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+
+# Experiment Tracking
+mlruns/
+wandb/
+runs/
+outputs/
+
+# Temporary Files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
