@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "source": "resume_03.pdf",
+  "stage": "validation",
+  "attempts": 1,
+  "data": {
+    "candidate_name": "PRIYA NAIR",
+    "skills": [
+      "Roadmapping",
+      "SQL",
+      "Figma",
+      "analytics",
+      "Amplitude",
+      "stakeholder management"
+    ],
+    "years_of_experience": 8.0,
+    "education": [
+      {
+        "degree": "MBA",
+        "institution": "Boston University",
+        "year": "2018"
+      },
+      {
+        "degree": "B.S. Information Systems",
+        "institution": "Northeastern",
+        "year": "2016"
+      }
+    ],
+    "strengths": [
+      "Increased activation rate from 41% to 58% at Helio Software",
+      "Conducted 30+ customer interviews per quarter and translated insights into product specifications",
+      "Launched a mobile app that achieved 100k downloads in its first year"
+    ],
+    "gaps": [
+      "no certifications listed",
+      "no explicit leadership responsibilities described",
+      "no mention of Agile or Scrum methodologies"
+    ]
+  },
+  "log": [
+    {
+      "attempt": 1,
+      "outcome": "success",
+      "tokens": {
+        "prompt": 892,
+        "completion": 702,
+        "total": 1594
+      }
+    }
+  ]
+}

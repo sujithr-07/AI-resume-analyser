@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "source": "empty_resume.txt",
+  "stage": "read",
+  "attempts": 0,
+  "errors": [
+    "file is empty"
+  ],
+  "log": []
+}
