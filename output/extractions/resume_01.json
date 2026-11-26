@@ -1,0 +1,41 @@
+{
+  "file": "resume_01.pdf",
+  "prompt_version": "extract_resume_v1",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "status": "ok",
+  "extraction": {
+    "candidate_name": "AVA THOMPSON",
+    "skills": [
+      "SQL",
+      "Python",
+      "pandas",
+      "matplotlib",
+      "Tableau",
+      "Excel",
+      "statistics",
+      "A/B testing"
+    ],
+    "years_of_experience": 7.0,
+    "education": [
+      {
+        "degree": "B.S. Economics",
+        "institution": "University of Oregon",
+        "year": "2019"
+      }
+    ],
+    "strengths": [
+      "Built weekly revenue dashboards used by three product teams",
+      "Reduced report generation time by 40% through automated SQL pipelines",
+      "Measured marketing campaign lift across twelve channels",
+      "Cleaned and validated customer datasets exceeding two million rows"
+    ],
+    "gaps": [
+      "no certifications listed",
+      "no leadership or managerial responsibilities mentioned",
+      "education entry lacks specific graduation month/day"
+    ]
+  },
+  "validation_errors": [],
+  "read_error": null
+}

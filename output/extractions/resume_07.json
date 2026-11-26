@@ -1,0 +1,37 @@
+{
+  "file": "resume_07.txt",
+  "prompt_version": "extract_resume_v1",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "status": "ok",
+  "extraction": {
+    "candidate_name": "JANE SMITH",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn",
+      "Airflow",
+      "AWS SageMaker",
+      "MLflow"
+    ],
+    "years_of_experience": 8.0,
+    "education": [
+      {
+        "degree": "M.S. Computer Science",
+        "institution": "Georgia Tech",
+        "year": "2018"
+      }
+    ],
+    "strengths": [
+      "Deployed ranking model serving 5M predictions per day",
+      "Reduced inference cost by 30% through quantization and caching",
+      "Built demand‑forecasting models adopted by 40 stores"
+    ],
+    "gaps": [
+      "no certifications listed",
+      "no leadership or management responsibilities mentioned"
+    ]
+  },
+  "validation_errors": [],
+  "read_error": null
+}

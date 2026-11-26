@@ -1,0 +1,10 @@
+{
+  "file": "scanned.pdf",
+  "prompt_version": "extract_resume_v1",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "status": "read_error",
+  "extraction": null,
+  "validation_errors": [],
+  "read_error": "no text found (scanned file)"
+}
