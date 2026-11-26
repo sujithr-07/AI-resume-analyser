@@ -73,3 +73,5 @@ outputs/
 *.bak
 .DS_Store
 Thumbs.db
+
+data/resumes/ 

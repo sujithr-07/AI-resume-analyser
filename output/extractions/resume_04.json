@@ -1,0 +1,41 @@
+{
+  "file": "resume_04.pdf",
+  "prompt_version": "extract_resume_v1",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "status": "ok",
+  "extraction": {
+    "candidate_name": "DANIEL OKAFOR",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "Kubernetes",
+      "Ansible",
+      "GitHub Actions",
+      "Prometheus",
+      "Grafana"
+    ],
+    "years_of_experience": 7.0,
+    "education": [
+      {
+        "degree": "B.Eng. Computer Engineering",
+        "institution": "University of Lagos",
+        "year": "2019"
+      }
+    ],
+    "strengths": [
+      "Reduced deployment time from 25 min to 6 min with a new CI pipeline",
+      "Implemented cost alerts that cut cloud spend by 18%",
+      "Automated provisioning of 200+ hosts using Ansible",
+      "Achieved 99.95% uptime for the streaming platform",
+      "Managed Kubernetes clusters for 25 services across 3 regions"
+    ],
+    "gaps": [
+      "no certifications listed",
+      "no leadership or management responsibilities mentioned",
+      "no detailed project descriptions beyond bullet points"
+    ]
+  },
+  "validation_errors": [],
+  "read_error": null
+}

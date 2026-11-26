@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "resume_extraction_v1",
+  "title": "Resume extraction result (v1)",
+  "description": "Structured data extracted from one resume. null = not present in resume.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidate_name", "skills", "years_of_experience", "education", "strengths", "gaps"],
+  "properties": {
+    "candidate_name": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "description": "Candidate's full name as written in the resume; null if not found."
+    },
+    "skills": {
+      "type": "array",
+      "description": "Concrete tools/technologies/hard skills mentioned. Empty array if none.",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "years_of_experience": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 70,
+      "description": "Total years computed from explicit employment date ranges only; null if not determinable."
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["degree", "institution", "year"],
+        "properties": {
+          "degree":      { "type": ["string", "null"], "minLength": 1 },
+          "institution": { "type": ["string", "null"], "minLength": 1 },
+          "year":        { "type": ["string", "null"], "minLength": 1 }
+        }
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "description": "Factual strong points the resume itself supports.",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "gaps": {
+      "type": "array",
+      "description": "Factual notes about what is demonstrably missing from the resume.",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}

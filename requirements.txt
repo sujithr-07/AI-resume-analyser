@@ -1,2 +1,6 @@
 pymupdf
 tiktoken
+openai
+jsonschema
+python-dotenv
+pydantic

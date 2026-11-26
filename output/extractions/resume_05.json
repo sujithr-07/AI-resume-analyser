@@ -1,0 +1,37 @@
+{
+  "file": "resume_05.txt",
+  "prompt_version": "extract_resume_v1",
+  "model": "openai/gpt-oss-120b",
+  "temperature": 0,
+  "status": "ok",
+  "extraction": {
+    "candidate_name": "EMILY CHEN",
+    "skills": [
+      "SEO",
+      "HubSpot",
+      "Google Analytics",
+      "copywriting",
+      "email marketing",
+      "A/B testing"
+    ],
+    "years_of_experience": 8.0,
+    "education": [
+      {
+        "degree": "B.A. Communications",
+        "institution": "San Diego State",
+        "year": "2018"
+      }
+    ],
+    "strengths": [
+      "Grew newsletter list from 8k to 45k subscribers",
+      "Increased email open rate by 9 points through A/B testing",
+      "Authored over 120 blog posts for SaaS and e-commerce clients"
+    ],
+    "gaps": [
+      "no certifications listed",
+      "no managerial or leadership responsibilities mentioned"
+    ]
+  },
+  "validation_errors": [],
+  "read_error": null
+}

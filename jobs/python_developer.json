@@ -1,0 +1,9 @@
+{
+  "id": "python_developer",
+  "title": "Python Developer",
+  "company": "Brightlane Logistics (fictional)",
+  "min_years_experience": 2,
+  "required_skills": ["Python", "SQL", "Docker", "Git", "REST APIs"],
+  "preferred_skills": ["AWS", "Kubernetes", "pytest", "CI/CD"],
+  "description": "Build and maintain backend services for our shipping platform: REST APIs, data pipelines and deployment tooling. Small team, code review and CI on every change."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "source": "resume_06.txt",
+  "stage": "validation",
+  "attempts": 1,
+  "data": {
+    "candidate_name": "OMAR HADDAD",
+    "skills": [
+      "Playwright",
+      "Selenium",
+      "pytest",
+      "Postman",
+      "Jira",
+      "SQL"
+    ],
+    "years_of_experience": 7.0,
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "institution": "University of Jordan",
+        "year": "2019"
+      }
+    ],
+    "strengths": [
+      "Built Playwright suite covering 300+ scenarios that runs on every PR",
+      "Reduced escaped defects by 35% year over year",
+      "Wrote test plans for checkout and inventory modules",
+      "Experience in both automated and manual QA testing"
+    ],
+    "gaps": [
+      "No certifications listed",
+      "No leadership or management responsibilities mentioned",
+      "No programming languages beyond SQL are specified"
+    ]
+  },
+  "log": [
+    {
+      "attempt": 1,
+      "outcome": "success",
+      "tokens": {
+        "prompt": 864,
+        "completion": 558,
+        "total": 1422
+      }
+    }
+  ]
+}
