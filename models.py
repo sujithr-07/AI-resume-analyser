@@ -52,3 +52,19 @@ class ResumeData(BaseModel):
         if isinstance(v, list):
             return [s.strip() for s in v if isinstance(s, str) and s.strip()]
         return v
+
+class MatchResult(BaseModel):
+    """Task 2 (matching): rubric-based fit report for one (resume, job) pair."""
+    model_config = ConfigDict(extra="forbid")
+
+    score: int = Field(ge=0, le=100)
+    matched_skills: list[str] = Field(default_factory=list)
+    missing_skills: list[str] = Field(default_factory=list)
+    reasoning: str = Field(min_length=10, max_length=600)
+
+    @field_validator("matched_skills", "missing_skills", mode="before")
+    @classmethod
+    def _strip(cls, v):
+        if isinstance(v, list):
+            return [s.strip() for s in v if isinstance(s, str) and s.strip()]
+        return v

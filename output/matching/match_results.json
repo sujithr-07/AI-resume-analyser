@@ -1,0 +1,1097 @@
+[
+  {
+    "candidate": "AVA THOMPSON",
+    "file": "resume_01.pdf",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      66,
+      66
+    ],
+    "mean": 66.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 66,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "SQL",
+      "Excel",
+      "statistics",
+      "Tableau",
+      "Python",
+      "pandas"
+    ],
+    "missing_skills": [],
+    "reasoning": "The candidate matches all four required skills (SQL, Excel, statistics, Tableau) and also matches two of the three preferred skills (Python, pandas). They have 7 years of experience, exceeding the 2‑year minimum, earning full experience points. No required skills are missing.",
+    "runs": [
+      {
+        "score": 66,
+        "matched": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau",
+          "Python",
+          "pandas"
+        ],
+        "missing": [],
+        "reasoning": "The candidate matches all four required skills (SQL, Excel, statistics, Tableau) and also matches two of the three preferred skills (Python, pandas). They have 7 years of experience, exceeding the 2‑year minimum, earning full experience points. No required skills are missing.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 782,
+              "completion": 447,
+              "total": 1229
+            }
+          }
+        ]
+      },
+      {
+        "score": 66,
+        "matched": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau",
+          "Python",
+          "pandas"
+        ],
+        "missing": [],
+        "reasoning": "The candidate matches all four required skills (SQL, Excel, statistics, Tableau) and also matches two of the three preferred skills (Python, pandas). They have 7 years of experience, exceeding the 2‑year minimum, earning full experience points. No required skills are missing.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 782,
+              "completion": 447,
+              "total": 1229
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "AVA THOMPSON",
+    "file": "resume_01.pdf",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      30,
+      30
+    ],
+    "mean": 30.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 30,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "Python",
+      "SQL"
+    ],
+    "missing_skills": [
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate matches the required Python and SQL skills, but lacks Docker, Git, and REST API experience. No preferred skills are demonstrated. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 30,
+        "matched": [
+          "Python",
+          "SQL"
+        ],
+        "missing": [
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required Python and SQL skills, but lacks Docker, Git, and REST API experience. No preferred skills are demonstrated. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 801,
+              "completion": 610,
+              "total": 1411
+            }
+          }
+        ]
+      },
+      {
+        "score": 30,
+        "matched": [
+          "Python",
+          "SQL"
+        ],
+        "missing": [
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required Python and SQL skills but lacks Docker, Git, and REST API experience. No preferred skills are present. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 801,
+              "completion": 492,
+              "total": 1293
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "MARCUS LEE",
+    "file": "resume_02.pdf",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      28,
+      28
+    ],
+    "mean": 28.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 28,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "SQL",
+      "Python"
+    ],
+    "missing_skills": [
+      "Excel",
+      "statistics",
+      "Tableau"
+    ],
+    "reasoning": "The candidate matches the required skill SQL (via PostgreSQL) and the preferred skill Python. They lack Excel, statistics, and Tableau, which are required. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 28,
+        "matched": [
+          "SQL",
+          "Python"
+        ],
+        "missing": [
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate matches the required skill SQL (via PostgreSQL) and the preferred skill Python. They lack Excel, statistics, and Tableau, which are required. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 832,
+              "completion": 393,
+              "total": 1225
+            }
+          }
+        ]
+      },
+      {
+        "score": 28,
+        "matched": [
+          "SQL",
+          "Python"
+        ],
+        "missing": [
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate matches the required skill SQL (via PostgreSQL) and the preferred skill Python. They lack Excel, statistics, and Tableau, and have 8 years experience which exceeds the 2‑year minimum.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 832,
+              "completion": 461,
+              "total": 1293
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "MARCUS LEE",
+    "file": "resume_02.pdf",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      56,
+      56
+    ],
+    "mean": 56.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 56,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "AWS",
+      "Kubernetes"
+    ],
+    "missing_skills": [
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate matches required Python, SQL (via PostgreSQL), and Docker, but lacks Git and REST API experience. Preferred AWS and Kubernetes are present. With 8 years of experience, they exceed the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 56,
+        "matched": [
+          "Python",
+          "SQL",
+          "Docker",
+          "AWS",
+          "Kubernetes"
+        ],
+        "missing": [
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches required Python, SQL (via PostgreSQL), and Docker, but lacks Git and REST API experience. Preferred AWS and Kubernetes are present. With 8 years of experience, they exceed the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 851,
+              "completion": 644,
+              "total": 1495
+            }
+          }
+        ]
+      },
+      {
+        "score": 56,
+        "matched": [
+          "Python",
+          "SQL",
+          "Docker",
+          "AWS",
+          "Kubernetes"
+        ],
+        "missing": [
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches required Python, SQL (via PostgreSQL), and Docker, but lacks Git and REST API experience. Preferred AWS and Kubernetes are present, while pytest and CI/CD are missing. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 851,
+              "completion": 654,
+              "total": 1505
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "PRIYA NAIR",
+    "file": "resume_03.pdf",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      28,
+      28
+    ],
+    "mean": 28.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 28,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "SQL",
+      "Amplitude"
+    ],
+    "missing_skills": [
+      "Excel",
+      "statistics",
+      "Tableau"
+    ],
+    "reasoning": "The candidate matches the required skill SQL and the preferred skill Amplitude. They lack the required Excel, statistics, and Tableau skills. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 28,
+        "matched": [
+          "SQL",
+          "Amplitude"
+        ],
+        "missing": [
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate matches the required skill SQL and the preferred skill Amplitude. They lack the required Excel, statistics, and Tableau skills. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 805,
+              "completion": 429,
+              "total": 1234
+            }
+          }
+        ]
+      },
+      {
+        "score": 28,
+        "matched": [
+          "SQL",
+          "Amplitude"
+        ],
+        "missing": [
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate matches the required skill SQL and the preferred skill Amplitude. They lack the required Excel, statistics, and Tableau skills. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 805,
+              "completion": 412,
+              "total": 1217
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "PRIYA NAIR",
+    "file": "resume_03.pdf",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      20,
+      20
+    ],
+    "mean": 20.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 20,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "SQL"
+    ],
+    "missing_skills": [
+      "Python",
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate matches the required SQL skill but lacks Python, Docker, Git, and REST APIs. All preferred skills are absent. Their 8 years of experience exceeds the 2‑year minimum, granting full experience points.",
+    "runs": [
+      {
+        "score": 20,
+        "matched": [
+          "SQL"
+        ],
+        "missing": [
+          "Python",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required SQL skill but lacks Python, Docker, Git, and REST APIs. All preferred skills are absent. Their 8 years of experience exceeds the 2‑year minimum, granting full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 824,
+              "completion": 458,
+              "total": 1282
+            }
+          }
+        ]
+      },
+      {
+        "score": 20,
+        "matched": [
+          "SQL"
+        ],
+        "missing": [
+          "Python",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required SQL skill but lacks Python, Docker, Git, and REST APIs. They have 8 years of experience, exceeding the 2‑year minimum, earning full experience points. No preferred skills are demonstrated.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 824,
+              "completion": 451,
+              "total": 1275
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "DANIEL OKAFOR",
+    "file": "resume_04.pdf",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      10,
+      10
+    ],
+    "mean": 10.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 10,
+    "rubric_check": "ok",
+    "matched_skills": [],
+    "missing_skills": [
+      "SQL",
+      "Excel",
+      "statistics",
+      "Tableau"
+    ],
+    "reasoning": "The candidate does not list any of the required skills (SQL, Excel, statistics, Tableau) nor the preferred skills. However, they have 7 years of experience, exceeding the 2‑year minimum, giving the experience points.",
+    "runs": [
+      {
+        "score": 10,
+        "matched": [],
+        "missing": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate does not list any of the required skills (SQL, Excel, statistics, Tableau) nor the preferred skills. However, they have 7 years of experience, exceeding the 2‑year minimum, giving the experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 806,
+              "completion": 319,
+              "total": 1125
+            }
+          }
+        ]
+      },
+      {
+        "score": 10,
+        "matched": [],
+        "missing": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate does not list any of the required skills (SQL, Excel, statistics, Tableau) nor the preferred skills. However, with 7 years of experience they exceed the 2‑year minimum, earning the experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 806,
+              "completion": 363,
+              "total": 1169
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "DANIEL OKAFOR",
+    "file": "resume_04.pdf",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      26,
+      26
+    ],
+    "mean": 26.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 26,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "missing_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate does not list any required skills (Python, SQL, Docker, Git, REST APIs). They do have AWS and Kubernetes, matching two preferred skills. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points. Score is 26.",
+    "runs": [
+      {
+        "score": 26,
+        "matched": [
+          "AWS",
+          "Kubernetes"
+        ],
+        "missing": [
+          "Python",
+          "SQL",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate does not list any required skills (Python, SQL, Docker, Git, REST APIs). They do have AWS and Kubernetes, matching two preferred skills. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points. Score is 26.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 825,
+              "completion": 558,
+              "total": 1383
+            }
+          }
+        ]
+      },
+      {
+        "score": 26,
+        "matched": [
+          "AWS",
+          "Kubernetes"
+        ],
+        "missing": [
+          "Python",
+          "SQL",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate does not list any required skills (Python, SQL, Docker, Git, REST APIs). They match two preferred skills (AWS, Kubernetes). Their 7 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 825,
+              "completion": 596,
+              "total": 1421
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "EMILY CHEN",
+    "file": "resume_05.txt",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      10,
+      10
+    ],
+    "mean": 10.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 10,
+    "rubric_check": "ok",
+    "matched_skills": [],
+    "missing_skills": [
+      "SQL",
+      "Excel",
+      "statistics",
+      "Tableau"
+    ],
+    "reasoning": "The candidate does not list any of the required skills (SQL, Excel, statistics, Tableau) or preferred skills, so all required skills are missing. However, with 8 years of experience they exceed the 2‑year minimum, earning the full experience points.",
+    "runs": [
+      {
+        "score": 10,
+        "matched": [],
+        "missing": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate does not list any of the required skills (SQL, Excel, statistics, Tableau) or preferred skills, so all required skills are missing. However, with 8 years of experience they exceed the 2‑year minimum, earning the full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 764,
+              "completion": 462,
+              "total": 1226
+            }
+          }
+        ]
+      },
+      {
+        "score": 10,
+        "matched": [],
+        "missing": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate does not list any of the required skills (SQL, Excel, statistics, Tableau) nor the preferred ones. However, they have 8 years of experience, which exceeds the 2‑year minimum, granting the experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 764,
+              "completion": 325,
+              "total": 1089
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "EMILY CHEN",
+    "file": "resume_05.txt",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      10,
+      10
+    ],
+    "mean": 10.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 10,
+    "rubric_check": "ok",
+    "matched_skills": [],
+    "missing_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate does not list any of the required skills (Python, SQL, Docker, Git, REST APIs) or preferred skills, so all required skills are missing. However, the candidate has 8 years of experience, exceeding the 2‑year minimum, granting the experience points.",
+    "runs": [
+      {
+        "score": 10,
+        "matched": [],
+        "missing": [
+          "Python",
+          "SQL",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate does not list any of the required skills (Python, SQL, Docker, Git, REST APIs) or preferred skills, so all required skills are missing. However, the candidate has 8 years of experience, exceeding the 2‑year minimum, granting the experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 783,
+              "completion": 386,
+              "total": 1169
+            }
+          }
+        ]
+      },
+      {
+        "score": 10,
+        "matched": [],
+        "missing": [
+          "Python",
+          "SQL",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate does not list any of the required skills (Python, SQL, Docker, Git, REST APIs) or preferred skills, so all required skills are missing. However, with 8 years of experience, they exceed the 2‑year minimum, earning the experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 783,
+              "completion": 383,
+              "total": 1166
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "OMAR HADDAD",
+    "file": "resume_06.txt",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      28,
+      28
+    ],
+    "mean": 28.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 28,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "SQL",
+      "Python"
+    ],
+    "missing_skills": [
+      "Excel",
+      "statistics",
+      "Tableau"
+    ],
+    "reasoning": "The candidate matches the required SQL skill but lacks Excel, statistics, and Tableau. They meet the experience requirement with 7 years (>=2). They also match the preferred Python skill via pytest.",
+    "runs": [
+      {
+        "score": 28,
+        "matched": [
+          "SQL",
+          "Python"
+        ],
+        "missing": [
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate matches the required SQL skill but lacks Excel, statistics, and Tableau. They meet the experience requirement with 7 years (>=2). They also match the preferred Python skill via pytest.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 776,
+              "completion": 520,
+              "total": 1296
+            }
+          }
+        ]
+      },
+      {
+        "score": 28,
+        "matched": [
+          "SQL",
+          "Python"
+        ],
+        "missing": [
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate matches the required SQL skill but lacks Excel, statistics, and Tableau. They meet the experience requirement with 7 years (>=2). They also match the preferred Python skill via pytest.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 776,
+              "completion": 520,
+              "total": 1296
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "OMAR HADDAD",
+    "file": "resume_06.txt",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      38,
+      38
+    ],
+    "mean": 38.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 38,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "Python",
+      "SQL",
+      "pytest"
+    ],
+    "missing_skills": [
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate matches the required Python (via pytest) and SQL skills, but lacks Docker, Git, and REST API experience. They also match the preferred pytest skill. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 38,
+        "matched": [
+          "Python",
+          "SQL",
+          "pytest"
+        ],
+        "missing": [
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required Python (via pytest) and SQL skills, but lacks Docker, Git, and REST API experience. They also match the preferred pytest skill. Their 7 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 795,
+              "completion": 702,
+              "total": 1497
+            }
+          }
+        ]
+      },
+      {
+        "score": 38,
+        "matched": [
+          "Python",
+          "SQL",
+          "pytest"
+        ],
+        "missing": [
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required Python (via pytest) and SQL skills, but lacks Docker, Git, and REST API experience. They also match the preferred pytest skill. With 7 years of experience, they exceed the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 795,
+              "completion": 723,
+              "total": 1518
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "JANE SMITH",
+    "file": "resume_07.txt",
+    "job": "data_analyst",
+    "job_title": "Data Analyst",
+    "status": "ok",
+    "scores": [
+      18,
+      18
+    ],
+    "mean": 18.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 18,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "Python"
+    ],
+    "missing_skills": [
+      "SQL",
+      "Excel",
+      "statistics",
+      "Tableau"
+    ],
+    "reasoning": "The candidate does not have any of the required skills (SQL, Excel, statistics, Tableau). They do have Python, which satisfies one preferred skill. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 18,
+        "matched": [
+          "Python"
+        ],
+        "missing": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate does not have any of the required skills (SQL, Excel, statistics, Tableau). They do have Python, which satisfies one preferred skill. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 771,
+              "completion": 382,
+              "total": 1153
+            }
+          }
+        ]
+      },
+      {
+        "score": 18,
+        "matched": [
+          "Python"
+        ],
+        "missing": [
+          "SQL",
+          "Excel",
+          "statistics",
+          "Tableau"
+        ],
+        "reasoning": "The candidate lacks all required skills (SQL, Excel, statistics, Tableau). They match one preferred skill (Python). Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 771,
+              "completion": 374,
+              "total": 1145
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate": "JANE SMITH",
+    "file": "resume_07.txt",
+    "job": "python_developer",
+    "job_title": "Python Developer",
+    "status": "ok",
+    "scores": [
+      28,
+      28
+    ],
+    "mean": 28.0,
+    "delta": 0,
+    "consistency": "consistent",
+    "rubric_score": 28,
+    "rubric_check": "ok",
+    "matched_skills": [
+      "Python",
+      "AWS"
+    ],
+    "missing_skills": [
+      "SQL",
+      "Docker",
+      "Git",
+      "REST APIs"
+    ],
+    "reasoning": "The candidate matches the required Python skill and the preferred AWS skill; they lack SQL, Docker, Git, and REST API experience. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+    "runs": [
+      {
+        "score": 28,
+        "matched": [
+          "Python",
+          "AWS"
+        ],
+        "missing": [
+          "SQL",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required Python skill and the preferred AWS skill; they lack SQL, Docker, Git, and REST API experience. Their 8 years of experience exceeds the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 790,
+              "completion": 476,
+              "total": 1266
+            }
+          }
+        ]
+      },
+      {
+        "score": 28,
+        "matched": [
+          "Python",
+          "AWS"
+        ],
+        "missing": [
+          "SQL",
+          "Docker",
+          "Git",
+          "REST APIs"
+        ],
+        "reasoning": "The candidate matches the required Python skill but lacks SQL, Docker, Git, and REST API experience. They meet the AWS preferred skill via AWS SageMaker. With 8 years of experience, they exceed the 2‑year minimum, earning full experience points.",
+        "attempts": 1,
+        "log": [
+          {
+            "attempt": 1,
+            "outcome": "success",
+            "tokens": {
+              "prompt": 790,
+              "completion": 664,
+              "total": 1454
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

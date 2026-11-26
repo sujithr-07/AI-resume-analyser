@@ -28,13 +28,13 @@
     ],
     "strengths": [
       "Increased activation rate from 41% to 58% at Helio Software",
-      "Conducted 30+ customer interviews per quarter and translated insights into product specifications",
-      "Launched a mobile app that achieved 100k downloads in its first year"
+      "Conducted 30+ customer interviews per quarter and turned findings into product specifications",
+      "Launched a mobile app that reached 100k downloads in its first year at Torvald Apps"
     ],
     "gaps": [
-      "no certifications listed",
-      "no explicit leadership responsibilities described",
-      "no mention of Agile or Scrum methodologies"
+      "No certifications listed",
+      "No explicit leadership scope or team size mentioned",
+      "No technical programming languages or development tools cited"
     ]
   },
   "log": [
@@ -43,8 +43,8 @@
       "outcome": "success",
       "tokens": {
         "prompt": 892,
-        "completion": 702,
-        "total": 1594
+        "completion": 721,
+        "total": 1613
       }
     }
   ]

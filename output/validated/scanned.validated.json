@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "source": "scanned.pdf",
+  "stage": "read",
+  "attempts": 0,
+  "errors": [
+    "no text found (scanned file)"
+  ],
+  "log": []
+}

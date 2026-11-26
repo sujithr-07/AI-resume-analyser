@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "source": "resume_02.pdf",
+  "stage": "validation",
+  "attempts": 1,
+  "data": {
+    "candidate_name": "MARCUS LEE",
+    "skills": [
+      "Python",
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Terraform",
+      "ELK"
+    ],
+    "years_of_experience": 8.0,
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "institution": "University of Washington",
+        "year": "2018"
+      }
+    ],
+    "strengths": [
+      "Owned billing service handling 40k requests per second with p99 < 90ms",
+      "Led migration from a monolith to 8 services with zero customer downtime",
+      "Reduced AWS spend by 28% by moving batch jobs to spot instances",
+      "Built internal CLI that cut new-service setup time from 2 days to 20 minutes",
+      "Mentored 3 engineers and ran the backend design review process"
+    ],
+    "gaps": [
+      "No dates provided for open-source projects (queue-lite, logvac)",
+      "No additional professional certifications beyond AWS Solutions Architect",
+      "No listed professional references"
+    ]
+  },
+  "log": [
+    {
+      "attempt": 1,
+      "outcome": "success",
+      "tokens": {
+        "prompt": 1101,
+        "completion": 1084,
+        "total": 2185
+      }
+    }
+  ]
+}

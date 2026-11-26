@@ -1,0 +1,9 @@
+{
+  "id": "data_analyst",
+  "title": "Data Analyst",
+  "company": "Cobalt Health (fictional)",
+  "min_years_experience": 2,
+  "required_skills": ["SQL", "Excel", "statistics", "Tableau"],
+  "preferred_skills": ["Python", "pandas", "Amplitude"],
+  "description": "Turn product and operations data into dashboards and weekly insights for non-technical stakeholders."
+}
