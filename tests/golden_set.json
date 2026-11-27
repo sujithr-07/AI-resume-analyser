@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": 1,
+    "resume": "John is a Python developer with experience in Django, SQL and REST APIs.",
+    "expected_skills": ["Python", "Django", "SQL", "REST APIs"]
+  },
+  {
+    "id": 2,
+    "resume": "Mary has experience in Java, Spring Boot, MySQL and Microservices.",
+    "expected_skills": ["Java", "Spring Boot", "MySQL", "Microservices"]
+  },
+  {
+    "id": 3,
+    "resume": "Alex is skilled in HTML, CSS, JavaScript, React and Node.js.",
+    "expected_skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"]
+  },
+  {
+    "id": 4,
+    "resume": "David works with Python, Machine Learning, TensorFlow and Pandas.",
+    "expected_skills": ["Python", "Machine Learning", "TensorFlow", "Pandas"]
+  },
+  {
+    "id": 5,
+    "resume": "Sarah has experience in AWS, Docker, Kubernetes and CI/CD.",
+    "expected_skills": ["AWS", "Docker", "Kubernetes", "CI/CD"]
+  },
+  {
+    "id": 6,
+    "resume": "Robert is experienced in C++, Java, Data Structures and Algorithms.",
+    "expected_skills": ["C++", "Java", "Data Structures", "Algorithms"]
+  },
+  {
+    "id": 7,
+    "resume": "Lisa works with SQL, PostgreSQL, MongoDB and Database Design.",
+    "expected_skills": ["SQL", "PostgreSQL", "MongoDB", "Database Design"]
+  },
+  {
+    "id": 8,
+    "resume": "Michael has skills in Git, Linux, Python, Jenkins and GitHub Actions.",
+    "expected_skills": ["Git", "Linux", "Python", "Jenkins", "GitHub Actions"]
+  }
+]

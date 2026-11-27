@@ -47,7 +47,7 @@ ROOT = Path(__file__).resolve().parent
 MAX_FILE_SIZE = 5 * 1024 * 1024
 MAX_RESUME_TOKENS = 10000
 MAX_RETRIES = 2
-LLM_TIMEOUT = 0.001
+LLM_TIMEOUT = 30
 ALLOWED_EXTENSIONS = {".pdf", ".txt"}
 
 MODEL = os.getenv(
@@ -76,8 +76,7 @@ request_id_context = ContextVar(
 logging.basicConfig(
     level=logging.INFO,
     format=(
-        "%(asctime)s | %(levelname)s | "
-        "Request ID: %(request_id)s | %(message)s"
+        "%(asctime)s | %(levelname)s | %(message)s"
     )
 )
 
@@ -277,18 +276,28 @@ def handle_llm_error(exc):
 # RESUME EXTRACTION
 # --------------------------------------------------
 
-def extract_resume(resume_text, client):
 
-    schema = json.loads(
-        (ROOT / "schemas/resume_extraction_v1.json")
-        .read_text(encoding="utf-8")
+def extract_resume(resume_text, client, prompt_path=None):
+
+    # Load JSON schema
+    schema_path = (
+        ROOT / "schemas/resume_extraction_v1.json"
     )
 
+    schema = json.loads(
+        schema_path.read_text(encoding="utf-8")
+    )
+
+    # Initialize validator
     validator = Draft202012Validator(schema)
 
-    prompt = (
-        ROOT / "prompts/extract_resume_v1.md"
-    ).read_text(encoding="utf-8")
+    # Load selected prompt
+    if prompt_path is None:
+        prompt_path = ROOT / "prompts/extract_resume_v1.md"
+
+    prompt = Path(prompt_path).read_text(
+        encoding="utf-8"
+    )
 
     messages = [
         {
@@ -321,12 +330,8 @@ def extract_resume(resume_text, client):
             usage = response.usage
 
             if usage:
-
                 total_prompt += usage.prompt_tokens
-
-                total_completion += (
-                    usage.completion_tokens
-                )
+                total_completion += usage.completion_tokens
 
             raw = (
                 response.choices[0].message.content or ""
@@ -334,7 +339,10 @@ def extract_resume(resume_text, client):
 
             data = json.loads(raw)
 
-            errors = list(validator.iter_errors(data))
+            # Validate extracted JSON
+            errors = list(
+                validator.iter_errors(data)
+            )
 
             if not errors:
 
@@ -378,7 +386,8 @@ def extract_resume(resume_text, client):
                     "role": "user",
                     "content": (
                         "Correct these validation errors: "
-                        f"{error_text}. Return valid JSON only."
+                        f"{error_text}. "
+                        "Return valid JSON only."
                     )
                 }
             ])
@@ -387,7 +396,6 @@ def extract_resume(resume_text, client):
         status_code=502,
         detail="Resume extraction failed validation."
     )
-
 
 # --------------------------------------------------
 # COST CALCULATION
