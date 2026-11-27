@@ -1,4 +1,3 @@
-
 # AI Resume Analyzer
 
 An LLM pipeline that reads resumes, turns them into structured data, checks thedata is valid, and scores each candidate against job descriptions.All resume data is fictional; API keys stay in `.env` (never committed).
@@ -88,3 +87,38 @@ python match.py    # requires Task 3's output
 ```
 
 **Output:** `output/matching/rankings.md` (submission tables) and`match_results.json` (both runs, deltas, reasoning per pair).
+
+
+---
+
+
+
+### Task 1 – Analyzer API
+
+* POST `/analyze` accepts PDF/TXT resume files or resume text.
+* Compares resumes against job descriptions.
+* Returns candidate name, matching score, matched skills, missing skills, and reasoning.
+* Validates file type and file size (maximum 5 MB).
+* Loads API credentials from `.env`.
+* Provides GET `/health` to check API status.
+* Provides automatic Swagger documentation at `/docs`.
+* Returns token usage and estimated API cost.
+
+### Task 2 – Error Handling and Timeouts
+
+* Configures a 30-second LLM timeout.
+* Supports automatic retries for temporary API errors.
+* Handles invalid JSON responses with retries.
+* Handles timeout, rate-limit, and connection errors.
+* Returns appropriate HTTP error codes (502, 503).
+* Rejects resumes exceeding 10,000 tokens with HTTP 413.
+* Generates a unique request ID for every request.
+* Logs request activity for debugging without exposing API keys or resume contents.
+
+| Failure case                   | Status code | Message                                           |
+| ------------------------------ | ----------- | ------------------------------------------------- |
+| Unsupported file type (DOCX)   | 415         | Only PDF and TXT files are supported.             |
+| Resume exceeds 10,000 tokens   | 413         | Resume exceeds the maximum limit of 10000 tokens. |
+| LLM request timeout            | 503         | AI service timed out. Please try again.           |
+| LLM rate limit exceeded        | 503         | AI service is busy. Please try again later.       |
+| LLM returns invalid JSON twice | 502         | Resume extraction failed validation.              |
