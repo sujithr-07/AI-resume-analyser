@@ -4,3 +4,6 @@ openai
 jsonschema
 python-dotenv
 pydantic
+fastapi
+uvicorn[standard]
+python-multipart
